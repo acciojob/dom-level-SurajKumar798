@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const levelElement = document.getElementById('level');
-const levelCount = 0;
-const current = levelElement;
+let levelCount = 0;
+let current = levelElement;
 while(current){
 	levelCount++;
 	current = current.parentElement;
